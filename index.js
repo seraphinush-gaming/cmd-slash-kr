@@ -22,7 +22,7 @@ module.exports = function EngCommand(dispatch) {
 			dispatch.toServer('C_DISMISS_PARTY', {})
 			send(`<font color="#56B4E9">Disbanded party.</font>`)
 		})
-		// KR1
+		// KR
 		command.add(['ㄹㅅ', 'ㄽ', 'ft', 'ㄹㄹ', 'ff'], () => {
 			dispatch.toServer('C_RESET_ALL_DUNGEON', {})
 			send(`<font color="#56B4E9">던전이 초기화 되었습니다.</font>`)
