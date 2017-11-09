@@ -1,5 +1,5 @@
 # short-slash-command
-tera-proxy module make my life better in K TERA
+tera-proxy module to make my life better in K TERA
 
 ## Dependency
 - `Command` module
