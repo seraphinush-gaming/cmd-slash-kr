@@ -12,3 +12,9 @@ tera-proxy module to make my life better in K TERA
 ## Info
 - Dungeon reset is `/던전리셋`, which is `/ejswjsfltpt` on Korean keyboard
 - `res` in proxy chat or `/ejswjsfltpt` :thinking:
+
+## Changelog
+### 1.1
+- Updated code aesthetics
+### 1.0
+- Initial commit
