@@ -3,38 +3,38 @@
 // - C_RESET_ALL_DUNGEON
 // - C_LEAVE_PARTY
 
-// Version 1.0 r:01
+// Version 1.1 r:01
 
-module.exports = function EngCommand(dispatch) {
+module.exports = function EngCommand(d) {
 	
 	// command
 	try {
 		const Command = require('command')
-		const command = Command(dispatch)
+		const command = Command(d)
 		// NA
 		command.add(['res', 'ㄱㄷㄴ'], () => {
-			dispatch.toServer('C_RESET_ALL_DUNGEON', {})
+			d.toServer('C_RESET_ALL_DUNGEON', {})
 			send(`<font color="#56B4E9">Dungeons reset.</font>`)
 		})
 		command.add(['dr', 'ㅇㄱ'], () => {
-			dispatch.toServer('C_LEAVE_PARTY', {})
+			d.toServer('C_LEAVE_PARTY', {})
 			send(`<font color="#56B4E9">Dropped party.</font>`)
 		})
 		command.add(['dis', '얀'], () => {
-			dispatch.toServer('C_DISMISS_PARTY', {})
+			d.toServer('C_DISMISS_PARTY', {})
 			send(`<font color="#56B4E9">Disbanded party.</font>`)
 		})
 		// KR
 		command.add(['ㄹㅅ', 'ㄽ', 'ft', 'ㄹㄹ', 'ff'], () => {
-			dispatch.toServer('C_RESET_ALL_DUNGEON', {})
+			d.toServer('C_RESET_ALL_DUNGEON', {})
 			send(`<font color="#56B4E9">던전이 초기화 되었습니다.</font>`)
 		})
 		command.add(['ㅌㅌ', 'xx'], () => {
-			dispatch.toServer('C_LEAVE_PARTY', {})
+			d.toServer('C_LEAVE_PARTY', {})
 			send(`<font color="#56B4E9">파티 탈퇴했습니다.</font>`)
 		})
 		command.add(['해산', 'ㅎㅅ', 'gy'], () => {
-			dispatch.toServer('C_DISMISS_PARTY', {})
+			d.toServer('C_DISMISS_PARTY', {})
 			send(`<font color="#56B4E9">파티 해산됬습니다.</font>`)
 		})
 		function send(msg) {
