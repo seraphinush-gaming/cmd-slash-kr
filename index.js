@@ -3,7 +3,7 @@
 // - C_RESET_ALL_DUNGEON
 // - C_LEAVE_PARTY
 
-// Version 1.1 r:01
+// Version 1.1 r:02
 
 module.exports = function EngCommand(d) {
 	
