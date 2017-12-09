@@ -3,9 +3,9 @@
 // - C_RESET_ALL_DUNGEON
 // - C_LEAVE_PARTY
 
-// Version 1.1 r:02
+// Version 1.11 r:00
 
-module.exports = function EngCommand(d) {
+module.exports = function shortSlashCommand(d) {
 	
 	// command
 	try {
@@ -37,11 +37,7 @@ module.exports = function EngCommand(d) {
 			d.toServer('C_DISMISS_PARTY', {})
 			send(`<font color="#56B4E9">파티 해산됬습니다.</font>`)
 		})
-		function send(msg) {
-			command.message(`[short-slash-command] : ` + msg)
-		}
-	} catch (e) {
-		console.log(`[ERROR] -- short-slash-command module --`)
-	}	
+		function send(msg) { command.message(`[short-slash-command] : ` + msg) }
+	} catch (e) { console.log(`[ERROR] -- short-slash-command module --`) }	
 	
 }
