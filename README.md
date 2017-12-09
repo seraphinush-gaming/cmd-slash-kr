@@ -14,6 +14,8 @@ tera-proxy module to make my life better in K TERA
 - `res` in proxy chat or `/ejswjsfltpt` :thinking:
 
 ## Changelog
+### 1.11
+- Updated code aesthetics
 ### 1.1
 - Updated code aesthetics
 ### 1.0
