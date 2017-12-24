@@ -3,7 +3,7 @@
 // - C_RESET_ALL_DUNGEON
 // - C_LEAVE_PARTY
 
-// Version 1.12 r:00
+// Version 1.13 r:00
 
 module.exports = function shortSlashCommand(d) {
 	
@@ -37,10 +37,10 @@ module.exports = function shortSlashCommand(d) {
 			d.toServer('C_DISMISS_PARTY', {})
 			send(`파티 해산됬습니다.`.clr('56B4E9'))
 		})
-		function send(msg) { command.message(`[short-slash-command] : ` + msg) }
+		function send(msg) { command.message(`[short-slash-command] : ` + [...arguments].join('\n\t - ')) }
 	} catch (e) { console.log(`[ERROR] -- short-slash-command module --`) }	
 	
 }
 
-// For a certain color OCD baka. ex: 'seraphinudez'.clr('BADA55')
+// credit : https://github.com/Some-AV-Popo
 String.prototype.clr = function (hexColor) { return `<font color="#${hexColor}">${this}` }
