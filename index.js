@@ -4,7 +4,7 @@
 // - C_REQUEST_USER_PAPERDOLL_INFO
 // - C_RESET_ALL_DUNGEON
 
-// Version 1.14 r:00
+// Version 1.14 r:01
 
 module.exports = function CommandSlashKr(d) {
 	
