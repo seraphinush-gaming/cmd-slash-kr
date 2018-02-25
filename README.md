@@ -11,8 +11,6 @@ tera-proxy module to make my life better in K TERA
 - Drop party/raid
 ### `dis` · `얀`
 - Prompt disband party
-### `보기 name` · `ㅂㄱ name` · `qr name`
-- Inspects player of said `name`
 
 ## Info
 - Dungeon reset is `/던전리셋`, which is `/ejswjsfltpt` on Korean keyboard
@@ -21,6 +19,8 @@ tera-proxy module to make my life better in K TERA
 ## Changelog
 <details>
 
+    1.15
+    - Removed duplicate function of a different module
     1.14
     - Updated name
     - Added short inspect command
