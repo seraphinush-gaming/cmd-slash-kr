@@ -1,4 +1,4 @@
-# command-slash-kr
+# cmd-slash-kr
 tera-proxy module to make my life better in K TERA
 
 ## Dependency
@@ -9,8 +9,6 @@ tera-proxy module to make my life better in K TERA
 - Reset dungeon
 ### `dr` · `ㅇㄱ` · `ㅌㅌ` · `xx`
 - Drop party/raid
-### `dis` · `얀`
-- Prompt disband party
 
 ## Info
 - Dungeon reset is `/던전리셋`, which is `/ejswjsfltpt` on Korean keyboard
@@ -19,6 +17,9 @@ tera-proxy module to make my life better in K TERA
 ## Changelog
 <details>
 
+    1.16
+    - Added auto-update support
+    - Removed disband party command
     1.15
     - Removed duplicate function of a different module
     1.14
