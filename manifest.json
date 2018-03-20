@@ -1,0 +1,10 @@
+{
+	"files": {
+		"index.js": "e7faf1ba0c2802e8b1e982382532780b344a290c95b7c51ccef97fec9c8ba2e0",
+		"module.json": "639921eb9dad7de683627783c125ca25630a1c5bec2b3da3fcfc6921270a68cf"
+	},
+	"defs": {
+		"C_LEAVE_PARTY": 1,
+		"C_RESET_ALL_DUNGEON": 1
+	}
+}
