@@ -5,10 +5,10 @@ tera-proxy module to make my life better in K TERA
 - `Command` module
 
 ## Usage
-### `res` · `ㄱㄷㄴ` · `ㄹㄹ` · `ff`
-- Reset dungeon
-### `dr` · `ㅇㄱ` · `ㅌㅌ` · `xx`
-- Drop party/raid
+- __`res` · `ㄱㄷㄴ` · `ㄹㄹ` · `ff`__
+  - Reset dungeon
+- __`dr` · `ㅇㄱ` · `ㅌㅌ` · `xx`__
+  - Drop party/raid
 
 ## Info
 - Dungeon reset is `/던전리셋`, which is `/ejswjsfltpt` on Korean keyboard
