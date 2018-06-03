@@ -1,4 +1,4 @@
-// Version 1.16 r:01
+// Version 1.16 r:02
 
 const Command = require('command')
 
@@ -10,11 +10,11 @@ module.exports = function CmdSlashKr(d) {
 
 	// command
 	command.add(['res', 'ㄱㄷㄴ', 'ㄹㄹ', 'ff'], () => {
-		d.toServer('C_RESET_ALL_DUNGEON', {})
+		d.send('C_RESET_ALL_DUNGEON', 1, {})
 		send(`Dungeons reset.`.clr('56B4E9'))
 	})
 	command.add(['dr', 'ㅇㄱ', 'ㅌㅌ', 'xx'], () => {
-		d.toServer('C_LEAVE_PARTY', {})
+		d.send('C_LEAVE_PARTY', 1, {})
 		send(`Dropped party.`.clr('56B4E9'))
 	})
 	function send(msg) { command.message(`[cmd-slash-kr] : ` + msg) }
