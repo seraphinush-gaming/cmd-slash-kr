@@ -1,4 +1,4 @@
-// Version 1.16 r:02
+// Version 1.16 r:03
 
 const Command = require('command')
 
@@ -17,6 +17,8 @@ module.exports = function CmdSlashKr(d) {
 		d.send('C_LEAVE_PARTY', 1, {})
 		send(`Dropped party.`.clr('56B4E9'))
 	})
+
+	// helper
 	function send(msg) { command.message(`[cmd-slash-kr] : ` + msg) }
 
 }
