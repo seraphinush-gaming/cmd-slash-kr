@@ -11,6 +11,7 @@ tera-proxy module to make my life better in K TERA
   - Drop party/raid
 
 ## Info
+- **Support seraph via paypal donations, thanks in advance : [paypal](https://www.paypal.me/seraphinush)**
 - Dungeon reset is `/던전리셋`, which is `/ejswjsfltpt` on Korean keyboard
 - `res` in proxy chat or `/ejswjsfltpt` :thinking:
 
