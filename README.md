@@ -18,6 +18,8 @@ tera-proxy module to make my life better in K TERA
 ## Changelog
 <details>
 
+    1.17
+    - Updated
     1.16
     - Added auto-update support
     - Removed disband party command

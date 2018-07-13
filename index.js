@@ -1,9 +1,6 @@
-// Version 1.16 r:03
+// Version 1.17 r:00
 
 const Command = require('command')
-
-// credit : https://github.com/Some-AV-Popo
-String.prototype.clr = function (hexColor) { return `<font color="#${hexColor}">${this}` }
 
 module.exports = function CmdSlashKr(d) {
 	const command = Command(d)
@@ -11,11 +8,11 @@ module.exports = function CmdSlashKr(d) {
 	// command
 	command.add(['res', 'ㄱㄷㄴ', 'ㄹㄹ', 'ff'], () => {
 		d.send('C_RESET_ALL_DUNGEON', 1, {})
-		send(`Dungeons reset.`.clr('56B4E9'))
+		send(`Dungeons reset.`)
 	})
 	command.add(['dr', 'ㅇㄱ', 'ㅌㅌ', 'xx'], () => {
 		d.send('C_LEAVE_PARTY', 1, {})
-		send(`Dropped party.`.clr('56B4E9'))
+		send(`Dropped party.`)
 	})
 
 	// helper
