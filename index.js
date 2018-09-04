@@ -1,21 +1,23 @@
-// Version 1.17 r:00
+// Version 1.18 r:00
 
-const Command = require('command')
-
-module.exports = function CmdSlashKr(d) {
-	const command = Command(d)
+module.exports = function CmdSlashKr(m) {
+	const cmd = m.command || m.require.command
 
 	// command
-	command.add(['res', 'ㄱㄷㄴ', 'ㄹㄹ', 'ff'], () => {
-		d.send('C_RESET_ALL_DUNGEON', 1, {})
-		send(`Dungeons reset.`)
-	})
-	command.add(['dr', 'ㅇㄱ', 'ㅌㅌ', 'xx'], () => {
-		d.send('C_LEAVE_PARTY', 1, {})
-		send(`Dropped party.`)
-	})
+	cmd.add(['res', 'ㄱㄷㄴ', 'ㄹㄹ', 'ff'], {
+		$none() { 
+			m.send('C_RESET_ALL_DUNGEON', 1, {});
+			send(`Dungeons reset.`);
+		}
+	});
+	cmd.add(['dr', 'ㅇㄱ', 'ㅌㅌ', 'xx'], {
+		$none() {
+			m.send('C_LEAVE_PARTY', 1, {});
+			send(`Dropped party.`);
+		}
+	});
 
 	// helper
-	function send(msg) { command.message(`[cmd-slash-kr] : ` + msg) }
+	function send(msg) { cmd.message(`: ` + msg); }
 
 }

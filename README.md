@@ -2,7 +2,7 @@
 tera-proxy module to make my life better in K TERA
 
 ## Dependency
-- `Command` module
+- `command` module
 
 ## Usage
 - __`res` · `ㄱㄷㄴ` · `ㄹㄹ` · `ff`__
@@ -18,6 +18,9 @@ tera-proxy module to make my life better in K TERA
 ## Changelog
 <details>
 
+    1.18
+    - Removed `command` require()
+    - Updated to `mod.command`
     1.17
     - Updated
     1.16
