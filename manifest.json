@@ -1,0 +1,12 @@
+{
+	"files": {
+		"LICENSE.md": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+		"README.md": "ff41a49bf4ce83df3994b36721fe7ce708faa9723e293d26f3bca59e5a44c99b",
+		"index.js": "5f587d053ff3ef6165f5e1012aa1e28f37618b22f8899c3722405c7bac2981e6",
+		"module.json": "f21c9f668661a33815e755301b740afbf8a8e5d50d3bbf80b0797715890d457e"
+	},
+	"defs": {
+		"C_LEAVE_PARTY": 1,
+		"C_RESET_ALL_DUNGEON": 1
+	}
+}

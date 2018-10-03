@@ -1,0 +1,5 @@
+{
+	"disableAutoUpdate": false,
+    "options": { "niceName": "cmd-slash-kr" },
+    "servers": ["https://raw.githubusercontent.com/ylennia-archives/cmd-slash-kr/master/"]
+}
