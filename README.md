@@ -1,6 +1,9 @@
 # cmd-slash-kr
 tera-proxy module to make my life better in K TERA
 
+## Auto-update guide
+- Create a folder called `cmd-slash-kr` in `tera-proxy/bin/node_modules` and download [module.json](https://raw.githubusercontent.com/ylennia-archives/cmd-slash-kr/master/module.json) (right-click save link as...) into the folder
+
 ## Dependency
 - `command` module
 
